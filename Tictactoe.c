@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include<unistd.h>
+#include <unistd.h>
 struct p
 {
     char x;
-} p[9]={'1','2','3','4','5','6','7','8','9'};
+};
+p[9]={'1','2','3','4','5','6','7','8','9'};
 void draw();
 int main()
 {
